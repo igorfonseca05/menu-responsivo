@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 1025px) {
+    #icon {
+        display: none;
+    }
+
+    header{
+        height: auto;
+    }
+
+    .menu{
+        animation: none;
+    }
+
+    main article {
+        max-width: 1000px;
+        margin: 10px auto;
+    }
+
+    .menu ul {
+        display: flex;
+    }
+
+    .menu ul li {
+        margin-left: 5px;
+        
+    }
+
+    .menu ul li a {
+        background-color: rgb(173, 31, 31);
+        padding: 5px;
+    
+    }
+  
+}
